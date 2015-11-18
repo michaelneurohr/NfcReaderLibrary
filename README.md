@@ -1,11 +1,5 @@
 # NfcReaderlibrary
-Examples related to the NXP NFC Reader Library
 
-This repository contains examples related to the NFC Reader Library developed and released by NXP Semiconductors.
-
-The repository is divided into two branches.
-## raspberrypi
-Contains examples intended to be run on the Raspberry Pi using the [EXPLORE-NFC](http://www.nxp.com/board/PNEV512R.html) extension board.
-
-## microcontroller
-Contains examples intended to be run on a microcontroller such as LPC1769 or LPC11U68.
+## Branch microcontroller
+The example project in this branch are intended to be used with the LPCXrepsso development environment together with a supported MCU development board and a supported NFC Demoboard.
+Please follow the instructions from the related Readme file of the example you want to use.
