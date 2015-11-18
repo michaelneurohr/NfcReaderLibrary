@@ -1,7 +1,7 @@
 # NfcReaderlibrary
 
 ## Branch raspberrypi
-Contains examples intended to be run on the Raspberry Pi using the EXPLORE-NFC [EXPLORE-NFC](http://www.nxp.com/board/PNEV512R.html) extension board.
+Contains examples intended to be run on the Raspberry Pi using the [EXPLORE-NFC](http://www.nxp.com/board/PNEV512R.html) extension board.
 
 Examples hosted in this branch are working with the Raspbian Jessie image.
 All examples are using the NFC Reader Library as an external library. To build the library, please follow these steps:
