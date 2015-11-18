@@ -5,7 +5,7 @@ This repository contains examples related to the NFC Reader Library developed an
 
 The repository is divided into two branches.
 ## raspberrypi
-Contains examples intended to be run on the Raspberry Pi using the EXPLORE-NFC [1] extension board.
+Contains examples intended to be run on the Raspberry Pi using the [EXPLORE-NFC](http://www.nxp.com/board/PNEV512R.html) extension board.
 
 ## microcontroller
 Contains examples intended to be run on a microcontroller such as LPC1769 or LPC11U68.
