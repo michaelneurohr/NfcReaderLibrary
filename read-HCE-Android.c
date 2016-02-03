@@ -147,7 +147,7 @@ int main (void)
     DEBUG_PRINTF("\nStart Example: Read NDEF from Type 4 Tag");
 
     /* Initialize the Reader BAL (Bus Abstraction Layer) component */
-    phbalReg_RpiSpi_Init(&balReader, sizeof(phbalReg_RpiSpi_DataParams_t));
+    status = phbalReg_RpiSpi_Init(&balReader, sizeof(phbalReg_RpiSpi_DataParams_t));
 
     /* Initialize the Stub timers component */
     CHECK_SUCCESS(status);
