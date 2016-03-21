@@ -13,23 +13,23 @@ All examples are using the NFC Reader Library as an external library. To build t
    `tar -xvf neard-explorenfc_0.9.orig.tar.gz`
 4. Install dependencies:
    `sudo apt-get install wiringpi autoconf libtool libglib2.0-dev`
-5. Install NeardAL development libraries
-   `sudo dpkg -i libneardal-dev_0.14.2-1_armhf.deb`
-6. Enter the directory neard-explorenfc-0.9 with
+5. Enter the directory neard-explorenfc-0.9 with
    `cd neard-explorenfc-0.9`
-7. Run the command
+6. Run the command
    `./bootstrap`
-8. Export environment variables for wiringPi with the commands
+7. Export environment variables for wiringPi with the commands
    `export WIRINGPI_CFLAGS=-I/usr/include`
    `export WIRINGPI_LIBS=-L/usr/lib\ -lwiringPi`
 8. Run
    `./configure`
-9. Finally compile with
+9. Change into the nxprdlib directory with the command
+   `cd nxprdlib`
+10. Finally compile with
    `make`
-10. Copy the resulting library with
-   `sudo cp nxprdlib/libnxprdlib.a /usr/local/lib/`
-11. Create your own code
-12. Compile your code with
+11. Copy the resulting library with
+   `sudo cp libnxprdlib.a /usr/local/lib/`
+12. Create your own code
+13. Compile your code with
    `gcc -o my-program my-code.c -Itypes -Iintfs -L/usr/lib -L/usr/local/lib -lwiringPi -lnxprdlib`
-13. Run the program with
+14. Run the program with
    `sudo ./my-program`
